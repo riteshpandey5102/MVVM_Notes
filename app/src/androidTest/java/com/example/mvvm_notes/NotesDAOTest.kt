@@ -40,7 +40,7 @@ class NotesDAOTest {
 
     @Test
     @Throws(Exception::class)
-    fun database_returnsSizeOfOneAndCorrectTitle_whenNewTodoInserted() = runTest {
+    fun database_returnsSizeOfOneAndCorrectTitle_whenNewNoteInserted() = runTest {
         val newNote = Note(
             1L,
             "First note inserted"
@@ -70,7 +70,7 @@ class NotesDAOTest {
 
     @Test
     @Throws(Exception::class)
-    fun database_returnsZero_whenAllTodosDeleted() = runTest {
+    fun database_returnsZero_whenAllNotesDeleted() = runTest {
         val newNote = Note(
             1L,
             "First Note Inserted"
