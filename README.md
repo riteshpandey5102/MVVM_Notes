@@ -16,5 +16,5 @@ Dependencies used for testing
 - __Mockk__
 - __Coroutine test__
 - __Google truth library__
-- __Arch core__ for live data testing
+- __Arch core__ for live data testing  
 These libraries are used to test Room DAO, Database and ViewModel
